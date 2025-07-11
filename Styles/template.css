@@ -73,9 +73,10 @@ main{
 .action-container{
     display: flex;
     justify-content: space-between;
+    padding: 60px 0;
 }
 .action-contain{
-    padding: 0 60px;
+    width: 50%;
 }
 .action-tittle{
     font-size: 45px;
@@ -90,7 +91,7 @@ main{
 }
 /* user  */
 .productive-user{
-    background-color: rgba(255, 255, 255, 1);
+    
     border-radius: 25px;
     padding: 50px 140px;
     background-color: #E5E7FF;
@@ -132,7 +133,7 @@ main{
 }
 .user{  
     border-radius: 10px;
-    background-color:rgba(228, 216, 216, 0.322);
+    background-color:white;
     margin: 0 25px;
     padding: 25px;
 }
@@ -151,4 +152,70 @@ color: rgba(117, 117, 117, 1);
 .user-date{
     color: rgba(179, 179, 179, 1);
 }
+
+/* Communication Part  */
+.feedback-form{
+    display: flex;
+    
+    gap: 100px;
+    align-items: center;
+    margin-top: 100px;
+  
+}
+.feedback-tittle{
+   
+    font-size: 115px;
+    font-weight: bold;
+    align-items: center;
+    
+}
+.feedback-column{
+    width: 50%;
+}
+
+form input[type="email"], form input[type="text"],form input[type="submit"], textarea{
+    display: block;
+    width: 100%;
+    height: 70px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    border: none;
+    /* padding: 10px 15px; */
+}
+footer{
+    background-color: white;
+}
+
+.footer-tittle{
+    font-size: 100px;
+    color: rgba(78, 71, 255, 1);
+    text-align: center;
+
+}
+.footer-des{
+    color: rgba(137, 135, 161, 1);
+    text-align: center;
+}
+
+.footer-content{
+  
+    padding: 100px 450px;
+}
+
+footer ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+footer li {
+    list-style: none;
+    margin: 0 50px ;
+    color: rgba(137, 135, 161, 1);
+    
+}
+
+
+
+
    
