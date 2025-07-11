@@ -30,6 +30,7 @@
 }
 body{
     margin: 0;
+    background-color: #F5F8FF;
 }
 /* header  */
 .header-bg{
@@ -117,3 +118,37 @@ main{
     font-size: 20px;
     color: rgba(0, 0, 0, 0.5);
 }
+/* Feedback */
+.user-opinion-tittle{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 135px;
+    margin-bottom: 135px;
+}
+
+.user-content{
+    display: flex;
+}
+.user{  
+    border-radius: 10px;
+    background-color:rgba(228, 216, 216, 0.322);
+    margin: 0 25px;
+    padding: 25px;
+}
+.user-infor{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+.user-img{
+    border-radius: 100px;
+    
+}
+.user-name{
+color: rgba(117, 117, 117, 1);
+}
+.user-date{
+    color: rgba(179, 179, 179, 1);
+}
+   
